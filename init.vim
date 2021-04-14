@@ -19,18 +19,15 @@ if exists('g:vscode')
   source $HOME/.config/nvim/plug-config/highlightyank.vim
 else
 
-  " Themes
-  source $HOME/.config/nvim/themes/syntax.vim
-"   source $HOME/.config/nvim/themes/nvcode.vim
-"  source $HOME/.vim/colors/sublimemonokai.vim
-  " Importing my own settings
-  source $HOME/.config/nvim/.vimrc
-  "Theme let g:vim_monokai_tasty_italic = 1
-  colorscheme vim-monokai-tasty
-  " Optional themes for airline/lightline
-  let g:airline_theme='monokai_tasty'                   " airline theme
-  let g:lightline = { 'colorscheme': 'monokai_tasty'}
-  " Plugin Configuration
+" Themes
+source $HOME/.config/nvim/themes/syntax.vim
+" Importing my own settings
+source $HOME/.config/nvim/.vimrc
+colorscheme vim-monokai-tasty
+" Optional themes for airline/lightline
+let g:airline_theme='monokai_tasty'                   " airline theme
+let g:lightline = { 'colorscheme': 'monokai_tasty'}
+" Plugin Configuration
 "source $HOME/.config/nvim/keys/which-key.vim
 "source $HOME/.config/nvim/plug-config/rainbow.vim
 "source $HOME/.config/nvim/plug-config/rnvimr.vim
@@ -47,18 +44,18 @@ source $HOME/.config/nvim/plug-config/gitgutter.vim
 source $HOME/.config/nvim/plug-config/git-messenger.vim
 source $HOME/.config/nvim/plug-config/closetags.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
-  " source $HOME/.config/nvim/plug-config/vista.vim
+"source $HOME/.config/nvim/plug-config/vista.vim
 source $HOME/.config/nvim/plug-config/xtabline.vim
 "source $HOME/.config/nvim/plug-config/far.vim
 "source $HOME/.config/nvim/plug-config/tagalong".vim
-"   source $HOME/.config/nvim/plug-config/illuminate.vim
+"source $HOME/.config/nvim/plug-config/illuminate.vim
 source $HOME/.config/nvim/plug-config/bracey.vim
 source $HOME/.config/nvim/plug-config/asynctask.vim
 "source $HOME/.config/nvim/plug-config/window-swap.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
 "luafile $HOME/.config/nvim/lua/plug-colorizer.lua
-"   source $HOME/.config/nvim/plug-config/vimspector.vim " Uncomment if you want to use Vimspector
-  " source $HOME/.config/nvim/plug-config/ale.vim
+"source $HOME/.config/nvim/plug-config/vimspector.vim " Uncomment if you want to use Vimspector
+"source $HOME/.config/nvim/plug-config/ale.vim
 endif
 
 " Add paths to node and python here
