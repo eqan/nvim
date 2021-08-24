@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/eqana/.config/awesome/widget/volume/widgets'
+let g:netrw_dirhist_5='/home/eqana/.config'
+let g:netrw_dirhist_4='/mnt/windows/Users/Eqan Ahmad/Desktop/Mini AI Projects/1. IGI_AI'
+let g:netrw_dirhist_3='/mnt/windows/Users/Eqan Ahmad/Desktop/Mini AI Projects'
+let g:netrw_dirhist_2='/mnt/windows/Users/Eqan Ahmad/Desktop/WindowsFormsApplication2'
+let g:netrw_dirhist_1='/usr/bin'
+let g:netrw_dirhist_0='/home/eqana/Desktop/Programming/CourseAssignment3'
+let g:netrw_dirhist_9='/home/eqana/.config/awesome/layout/left-panel'
+let g:netrw_dirhist_8='/home/eqana/.config/awesome/treesome'
+let g:netrw_dirhist_7='/home/eqana/.config/ranger'
